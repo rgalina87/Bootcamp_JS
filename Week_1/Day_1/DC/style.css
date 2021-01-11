@@ -1,0 +1,36 @@
+body {
+  background-image: url('photo.jpg');
+
+}
+h1 {
+  font-style: italic;
+  text-align: center;
+  font-size: 50px;
+  color: red;
+}
+
+p {
+  font-size: 20px;
+  background: -webkit-linear-gradient(#9A0C0C, #7A3030);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: black;
+  word-spacing: 15px;
+}
+
+li {
+  display: inline;
+  font-size: 20px;
+}
+
+footer {
+  word-spacing: 15px;
+  text-align: center;
+  font-size: 20px;
+  border-top: 15px;
+}
