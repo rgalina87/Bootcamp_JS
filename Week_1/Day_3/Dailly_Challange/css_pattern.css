@@ -1,0 +1,30 @@
+section{
+    height: 500px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border: solid 3px black;
+    margin: 15px
+}
+.column2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    float: right;
+}
+
+.column1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
