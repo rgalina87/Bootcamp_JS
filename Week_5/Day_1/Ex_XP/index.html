@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Exercise Week 5 Day 1</h1>
+ <!-- Exercise 1 : HTML Form -->
+    <form id="myform" name="my" action="index.html" method="GET">
+      <label for="name">Name</label>
+      <input type="text" name="Name" value="">
+      <label for="comment">Comments</label>
+      <textarea name="comment" row = "4" cols = "50"value="">
+      </textarea>	
+      <input type="submit" value="Send">
+    </form>
+
+ <!-- Exercise 2 : HTML Form #2 -->
+    <form id="myForm" name="my" action="index.html" method="POST">
+      <label for="name">Name</label>
+      <input type="text" name="Name" value="">
+      <label for="comment">Comments</label>
+      <textarea name="comment" row = "4" cols = "50"value="">
+      </textarea>	
+      <input type="submit" value="Send">
+    </form>
+
+<script>
+	
+let marioGame = {
+  detail : "An amazing game!",
+  characters : {
+      mario : {
+        description:"Small and jumpy. Likes princesses.",
+        height: 10,
+        weight: 3,
+        speed: 12,
+      },
+      bowser : {
+        description: "Big and green, Hates princesses.",
+        height: 16,
+        weight: 6,
+        speed: 4,
+      },
+      princessPeach : {
+        description: "Beautiful princess.",
+        height: 12,
+        weight: 2,
+        speed: 2,
+      }
+  },
+}
+
+let jason = JSON.stringify(marioGame)
+
+let jason2 = JASON.stringify(marioGame, null, 2)
+</script>
+</body>
+</html>

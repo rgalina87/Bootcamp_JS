@@ -1,0 +1,38 @@
+body {
+	background-image: url("https://i.giphy.com/media/TxVVB6PfWMjE4/200.webp");
+	font-family: 'Helvetica Neue';
+    color: yellow;
+    
+}
+img {
+	height: 25%;
+	width: 25%;
+margin-left: 650px;
+}
+
+
+.base {
+	border: 2px solid yellow;
+	height: 300px;
+	width: 500px;
+	border-radius: 15px;
+	text-align: center;
+	padding: 30px;
+	margin-top: 30px; 
+	margin-left:550px;
+
+}
+
+	
+
+button {
+	background-color: white;
+	border: 2px solid yellow;
+	width: 200px;
+	height: auto;
+	border-radius: 10px;
+	font-size: 15px;
+	font-style: bold;
+	margin-top: 30px;
+	margin-left:750px; 
+}
